@@ -40,24 +40,24 @@ The shopping cart is implemented using a **linked list**:
 ---
 
 ### Usage
-1.Run the program to display the main menu.
-2.Select from the available options:
+1. Run the program to display the main menu.
+2. Select from the available options:
   - Add an item by entering its ID, name, price, and quantity.
   - Remove an item by entering its unique ID.
   - View the cart to see all items and their details.
   - Checkout to calculate and display the total cost.
-3.Follow the on-screen prompts to perform actions.
+3. Follow the on-screen prompts to perform actions.
 
 
 ### Code Overview
 Functions
-1.Add Product
+1. Add Product
   - Adds a new product to the end of the shopping cart (linked list).
-2.Remove Product
+2. Remove Product
   - Removes a product using its unique ID by traversing the linked list.
-3.Display Cart
+3. Display Cart
   - Traverses the linked list and displays the details of all products.
-4.Checkout
+4. Checkout
   - Traverses the cart, calculates the total cost of all items, and prints the bill.
 
 
