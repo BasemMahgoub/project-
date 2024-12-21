@@ -37,6 +37,8 @@ The shopping cart is implemented using a **linked list**:
 - [Future Enhancements](#future-enhancements)
 - [License](#license)
 
+---
+
 ### Usage
 1.Run the program to display the main menu.
 2.Select from the available options:
