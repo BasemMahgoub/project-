@@ -37,7 +37,7 @@ The shopping cart is implemented using a **linked list**:
 - [Future Enhancements](#future-enhancements)
 - [License](#license)
 
----Usage
+### Usage
 1.Run the program to display the main menu.
 2.Select from the available options:
   . Add an item by entering its ID, name, price, and quantity.
@@ -47,7 +47,7 @@ The shopping cart is implemented using a **linked list**:
 3.Follow the on-screen prompts to perform actions.
 
 
-Code Overview
+### Code Overview
 Functions
 1.Add Product
   . Adds a new product to the end of the shopping cart (linked list).
@@ -59,7 +59,7 @@ Functions
   . Traverses the cart, calculates the total cost of all items, and prints the bill.
 
 
-  Future Enhancements
+### Future Enhancements
 In the future, we plan to add:
 . Discounts: Support for applying discounts during checkout.
 . Save Cart: Save the cart to a file for persistence.
@@ -67,6 +67,6 @@ In the future, we plan to add:
 . Sorting: Sort items in the cart based on price, name, or quantity.
 
 
-License
+### License
 This project is licensed under the Infinity Stones Team. See the LICENSE file for more details.
 
