@@ -72,17 +72,3 @@ void removeProduct(Product*& head, int id) {
     delete current;
     cout << "Product with ID " << id << " removed successfully.\n";
 }
-
-// search stuff
-void searchProduct(Product* head, int id) {
-    Product* current = head;
-
-    while (current != nullptr) {
-        if (current->id == id) {
-            cout << "Product found: " << current->name << ", Price: " << current->price << endl;
-            return;
-        }
-        current = current->next;
-    }
-    cout << "Product not found!" << endl;
-}
