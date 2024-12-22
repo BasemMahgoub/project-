@@ -109,3 +109,16 @@ void calculateCheck(Product* head) {
     }
     cout <<"Totalcheck:" << totalCheck <<endl;
 } 
+
+void displayCart(Product* head) {
+    if (head == nullptr) {
+        cout << "Cart is empty!" << endl;
+        return;
+    }
+    cout << "Shopping Cart:" << endl;
+    while (head != nullptr) {
+        cout << "ID: " << head->id << ", Name: " << head->name << ", Price: "
+            << head->price <<", Amount:" << head->amount << endl;
+        head = head->next;
+    }
+}
