@@ -85,3 +85,15 @@ void searchProduct(Product* head, int id) {
     }
     cout << "Product not found!" << endl;
 }
+
+//calculate
+void calculateCheck(Product* head) {
+    float totalCheck = 0.0; 
+    Product* current = head; 
+
+    while (current != nullptr) {
+        totalCheck += current->price * current->amount;
+        current = current->next; 
+    }
+    cout <<"Totalcheck:" << totalCheck <<endl;
+} 
