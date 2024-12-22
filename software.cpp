@@ -17,7 +17,19 @@ void displayCart(Product* head);
 void calculateCheck(Product* head);
 
 //Main
+int main() {
+    Product* cart = nullptr; 
 
+    addProduct(cart, 1, "v7 Cola", 15 ,3);
+    addProduct(cart, 2, "Tiger", 15 ,2);
+    displayCart(cart);
+    searchProduct(cart, 1);
+    removeProduct(cart, 2);
+    displayCart(cart);
+    calculateCheck(cart);
+
+    return 0;
+}
 
 
 
